@@ -1,0 +1,25 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.style-box{
+    width: 200px;
+    height: 200px;
+}
+.style-box:nth-child(1){
+    background-color: palevioletred;
+}
+.style-box:nth-child(2){
+    background-color: royalblue;
+    position: relative;
+    top: 140px;
+    left: -60px;
+    z-index: 1;
+}
+.style-box:nth-child(3){
+    background-color: rgb(70, 174, 98);
+    position: relative;
+    top: 280px;
+    left: -120px;
+}
